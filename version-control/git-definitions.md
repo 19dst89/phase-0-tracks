@@ -18,3 +18,4 @@
 
 	A merge conflict is when there is a problem merging the updated branch into the master branch. Most simple conflicts will be automatically resolved such as a modified text file in the updated branch.
 
+This is for tagging one of my teaching staff.
