@@ -1,20 +1,24 @@
+#container {
+	position: relative;
+}
+
 #octopus {
-	position: fixed;
-	margin-left: 40%;
-	margin-right: 50%;
-	margin-top: 15%;
+	position: static;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 200px;
 }
 
 #glasses {
-	position: fixed;
-	left: 43.5%;
-	top: 40%;
+	position: absolute;
+	left: 342px;
+	top: 300px;
 
 }
 
 #hat {
-	position: fixed;
-	left: 39%;
-	top: 20%;
+	position: absolute;
+	left: 280px;
+	top: 130px;
 
 }
