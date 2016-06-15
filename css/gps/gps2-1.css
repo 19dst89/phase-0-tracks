@@ -1,0 +1,33 @@
+h1 {
+  color: orange;
+  font-family: helvetica;
+}
+
+.column-1 {
+  background-color: lightblue;
+  float: left;
+  overflow: auto;
+  width: 40%;
+  position: relative;
+  margin-right: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  height: 1000px;
+  font-family: helvetica;
+  
+}
+
+.column-2 {
+  width: 40%;
+  background-color: red;
+  margin-left: 20px;
+  padding-left: 20px;
+  display: inline-block;
+  height: 1000px;
+  overflow: auto;
+}
+
+footer {
+  text-align: center;
+}
