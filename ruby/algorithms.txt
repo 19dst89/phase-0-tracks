@@ -1,0 +1,82 @@
+Release 0: Equip Your New Robot
+
+ - if floor number needed to go to is greater than current floor push up arrow.
+
+ 	- if floor number needed is less than push down arrow.
+ 	- or else do not push any button.
+
+ - Once the elevator doors open walk into elevator.
+
+ - Locate panel with room floor buttons.
+
+ - For each button with a number:
+ 	- is it equal to floor number needed?
+ 		- if yes
+ 			- push button and wait.
+ 		- else
+ 			- go up one button
+ 			- start check over
+
+ - Once doors open look at panel 
+ 	- is needed floor number highlighted?
+ 		- if yes 
+ 			- walk out
+ 		- else 
+ 			- wait for doors to close.
+ 			- repeat until leave elevator.
+
+
+
+Release 1: Find a Real-Life Algorithm
+
+"Open/Close Front Door"
+
+ - Walk to front door
+ 	- stop once 12 inches from door.
+
+ - Locate top lock.
+ 	if top lock is pointing up.
+ 		- Grab top lock handle with fingers.
+ 		- Turn top lock handle 90 degrees clockwise.
+ 		- continue to next step.
+ 	else 
+ 		- ignore top lock.
+ 		- continue to next step.
+
+ - Locate door handle.
+ 	- grab door handle with hand.
+ 	- turn door handle clockwise until loud click is heard.
+
+
+ - Until space between wall and door is greater than width of you.
+ 	- pull handle towards you
+ 	- Let go of door handle
+
+ - Walk through space previously occupied by door.
+
+ - Once through space turn 180 degrees around.
+
+ - Grab door handle again.
+ 	- Pull towards you until door is 100% closed.
+ 
+ - Once the door is closed
+ 	- let go of door handle.
+
+ - Locate key hole on opposite side of top lock.
+ 	- Insert Key into key hole.
+ 	- Turn key 360 degrees clockwise
+ 	- Turn key 180 degrees counter clockwise.
+ 	- Pull key out of key hole.
+ 	- Insert key into pocket.
+
+ - Walk away
+
+
+
+
+
+
+
+
+
+
