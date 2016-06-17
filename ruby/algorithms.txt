@@ -1,0 +1,24 @@
+ - if floor number needed to go to is greater than current floor push up arrow.
+
+ 	- if floor number needed is less than push down arrow.
+ 	- or else do not push any button.
+
+ - Once the elevator doors open walk into elevator.
+
+ - Locate panel with room floor buttons.
+
+ - For each button with a number:
+ 	- is it equal to floor number needed?
+ 		- if yes
+ 			- push button and wait.
+ 		- else
+ 			- go up one button
+ 			- start check over
+
+ - Once doors open look at panel 
+ 	- is needed floor number highlighted?
+ 		- if yes 
+ 			- walk out
+ 		- else 
+ 			- wait for doors to close.
+ 			- repeat until leave elevator.
