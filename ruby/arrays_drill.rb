@@ -1,3 +1,18 @@
+
+def build_array(item1, item2, item3)
+	Array.[](item1, item2, item3)
+	#return [item1, item2, item3]
+	
+end
+p build_array(2, 4, 6)
+p build_array(2, 4, 6).class
+
+def add_to_array(a, b)
+	a << b
+end
+p add_to_array([], "string")
+p add_to_array(["square", "circle", "triangle"], 2)
+
 new_array = []
 
 	p new_array
