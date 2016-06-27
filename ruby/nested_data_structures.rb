@@ -9,7 +9,7 @@ classroom = {
 			"row of text books"
 		],
 		inside: [
-			"nobody knows"
+			"nobody knows",
 			"locked drawer of confiscated items"
 		]
 	},
@@ -44,7 +44,7 @@ classroom = {
 	second_row: {
 		second_row_desk1: {
 			chair: "Student Name4",
-			inside_desk: [
+			inside_desk4: [
 				"pencil",
 				"paper",
 				"text book",
@@ -53,7 +53,7 @@ classroom = {
 		},
 		second_row_desk2: {
 			chair: "Student Name5",
-			inside_desk2: [
+			inside_desk5: [
 				"pencil",
 				"paper",
 				"text book",
@@ -62,7 +62,7 @@ classroom = {
 		},
 		second_row_desk3: {
 			chair: "Student Name6",
-			inside_desk3: [
+			inside_desk6: [
 			"pencil",
 			"paper",
 			"text book",
@@ -73,7 +73,7 @@ classroom = {
 	third_row: {
 		third_row_desk1: {
 			chair: "Student Name7",
-			inside_desk: [
+			inside_desk7: [
 				"pencil",
 				"paper",
 				"text book",
@@ -82,7 +82,7 @@ classroom = {
 		},
 		third_row_desk2: {
 			chair: "Student Name8",
-			inside_desk2: [
+			inside_desk8: [
 				"pencil",
 				"paper",
 				"text book",
@@ -91,7 +91,7 @@ classroom = {
 		},
 		third_row_desk3: {
 			chair: "Student Name9",
-			inside_desk3: [
+			inside_desk9: [
 			"pencil",
 			"paper",
 			"text book",
@@ -102,11 +102,11 @@ classroom = {
 	fourth_row: {
 		fourth_row_desk1: {
 			chair: "Empty",
-			inside_desk: []
+			inside_desk10: []
 		},
 		fourth_row_desk2: {
 			chair: "Student Name10",
-			inside_desk2: [
+			inside_desk11: [
 				"pencil",
 				"paper",
 				"text book",
@@ -115,7 +115,7 @@ classroom = {
 		},
 		fourth_row_desk3: {
 			chair: "Student Name11",
-			inside_desk3: [
+			inside_desk12: [
 			"pencil",
 			"paper",
 			"text book",
@@ -125,4 +125,30 @@ classroom = {
 	},
 }
 
-puts classroom[:front_row][:front_desk1][:inside_desk][1]
+	# Uncomment each one for printing out
+
+
+# puts classroom[:front_row][:front_desk1][:inside_desk][1]
+
+classroom[:third_row][:third_row_desk2][:inside_desk8].push("found more gum")
+print classroom[:third_row][:third_row_desk2][:inside_desk8]
+
+
+# print classroom[:fourth_row].values
+
+# print classroom.length
+
+# print classroom[:fourth_row][:fourth_row_desk3][:inside_desk12]
+
+
+
+
+
+
+
+
+
+
+
+
+
