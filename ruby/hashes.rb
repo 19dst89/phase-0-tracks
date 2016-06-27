@@ -47,8 +47,8 @@ puts "6: Single Room/area? yes or no"
 		end
 
 	user = {
-		h_Name: name,
-		h_Age: age,
+		h_name: name,
+		h_age: age,
 		h_children: num_children,
 		h_theme: decor_theme,
 		h_house: whole_house,
@@ -69,18 +69,22 @@ puts "Would you like to change any of your answers?"
 			if wrong_answer == "1"
 				puts "Enter Your Name Correctly"
 				name2 = gets.chomp
+				replace_user = { h_name: name2}
 
 			elsif wrong_answer == "2"
 				puts "Enter Your Age Correctly"
 				age2 = gets.chomp.to_i
+				replace_user = {h_age: age2}
 
 			elsif wrong_answer == "3"
 				puts "Enter Your Correct Number of Children"
 				num_children2 = gets.chomp.to_i
+				replace_user = {h_children: num_children2}
 
 			elsif wrong_answer == "4"
 				puts "Enter Your correct Preferred Decor"
 				decor_theme2 = gets.chomp
+				replace_user = {h_theme: decor_theme2}
 
 			elsif wrong_answer == "5"
 				puts "Whole House Decor? yes or no"
@@ -91,6 +95,7 @@ puts "Would you like to change any of your answers?"
 					else
 						whole_house2 = false
 					end
+				replace_user = {h_house: whole_house2}
 
 			elsif wrong_answer == "6"
 				puts "Single Room/Area Decor? yes or no"
@@ -101,17 +106,19 @@ puts "Would you like to change any of your answers?"
 					else
 						single_room = false
 					end
+				replace_user = {h_single: single_room2}
 			end
 	end
 
-	replace_user = {
-		h_Name: name2,
-		h_Age: age2,
-		h_children: num_children2,
-		h_theme: decor_theme2,
-		h_house: whole_house2,
-		h_single: single_room2
-	}
+	#replace_user = {
+		#h_name: name2,
+		#h_age: age2,
+		#h_children: num_children2,
+		#h_theme: decor_theme2,
+		#h_house: whole_house2,
+		#h_single: single_room2
+	#}
+
 
 user.merge!(replace_user)
 
