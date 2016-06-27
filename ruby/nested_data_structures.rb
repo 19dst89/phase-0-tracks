@@ -1,11 +1,24 @@
 classroom = {
-	teachers_desk: [],
+	teachers_desk: {
+		leather_chair: "Mr. Thompson",
+		on_top: [
+			"red apple",
+			"red ink pens",
+			"nameplate with Mr. Thompson on it",
+			"stack of ungraded essays",
+			"row of text books"
+		],
+		inside: [
+			"nobody knows"
+			"locked drawer of confiscated items"
+		]
+	},
 	front_row: {
 		front_desk1: {
 			chair: "Student Name1",
 			inside_desk: [
 				"pencil",
-				"paper"
+				"paper",
 				"text book"
 			]
 		},
@@ -53,12 +66,63 @@ classroom = {
 			"pencil",
 			"paper",
 			"text book",
+			"lots of gum under"
+			]
+		},
+	},
+	third_row: {
+		third_row_desk1: {
+			chair: "Student Name7",
+			inside_desk: [
+				"pencil",
+				"paper",
+				"text book",
+				"uneven legs"
+			]
+		},
+		third_row_desk2: {
+			chair: "Student Name8",
+			inside_desk2: [
+				"pencil",
+				"paper",
+				"text book",
+				"back support loose"
+			]
+		},
+		third_row_desk3: {
+			chair: "Student Name9",
+			inside_desk3: [
+			"pencil",
+			"paper",
+			"text book",
 			"smiley face scratched into top"
 			]
 		},
 	},
-	third_row: [],
-	fourth_row: []
+	fourth_row: {
+		fourth_row_desk1: {
+			chair: "Empty",
+			inside_desk: []
+		},
+		fourth_row_desk2: {
+			chair: "Student Name10",
+			inside_desk2: [
+				"pencil",
+				"paper",
+				"text book",
+				"red ink splatter"
+			]
+		},
+		fourth_row_desk3: {
+			chair: "Student Name11",
+			inside_desk3: [
+			"pencil",
+			"paper",
+			"text book",
+			"1+1=11 wrtten in sharpie on top"
+			]
+		},
+	},
 }
 
 puts classroom[:front_row][:front_desk1][:inside_desk][1]
