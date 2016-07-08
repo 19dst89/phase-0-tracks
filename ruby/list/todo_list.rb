@@ -3,8 +3,8 @@
 
 class TodoList
 
-	def initialize
-		@list = ["do the dishes", "mow the lawn"]
+	def initialize(list)
+		@list = list
 	end
 
 	def get_items
